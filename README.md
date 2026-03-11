@@ -88,8 +88,10 @@ The pipeline automatically:
 - Runs tests on every push
 - Builds Docker images
 - Pushes to GitHub Container Registry
-
-Note About AWS Deployment
+- 
+Note for VirtualBox users: If running in a VM and you want to access from your Windows browser,
+use http://127.0.0.1:3000/health after setting up port forwarding in VirtualBox.
+Note About AWS Deployment:
 
 The Terraform code in this repository is complete and follows best practices, but I haven't actually deployed it to AWS. This is to avoid unexpected charges on my personal AWS account since this is a take-home assessment.
 
