@@ -1,0 +1,11 @@
+# AWS Configuration
+aws_region = "us-east-1"
+instance_type = "t3.micro"
+
+# SSL Certificate (replace with your actual ARN)
+certificate_arn = "arn:aws:acm:us-east-1:123456789012:certificate/your-certificate-id"
+
+# GitHub Configuration
+ghcr_username = "your-github-username"
+ghcr_token = "your-github-token"
+github_repository = "your-username/credpal-devops-challenge"
